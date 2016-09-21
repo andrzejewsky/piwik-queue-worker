@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/andrzejewsky/piwik-queue-worker)](https://goreportcard.com/report/github.com/andrzejewsky/piwik-queue-worker)
+
 An example worker for Redis-based queue written in Go.
 
 Usage:
