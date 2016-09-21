@@ -12,7 +12,7 @@ var redisAddr string
 var redisPort string
 
 func init() {
-	flag.IntVar(&replyHost, "reply-host", "", "eg. http://localhost/")
+	flag.StringVar(&replyHost, "reply-host", "", "eg. http://localhost/")
 	flag.StringVar(&redisAddr, "redis-addr", "", "redis host")
 	flag.StringVar(&redisPort, "redis-port", "", "redis port")
 }
